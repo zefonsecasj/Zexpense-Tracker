@@ -4,11 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/f22e27b632.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <title>Zexpense-Tracker</title>
 </head>
 <body>
-    <h1>HELLO WORLD!</h1>
+    <header>
+        <h1>(Z)Expense-Tracker</h1>
+        <section>    
+            <a href=""><i class="fa-brands fa-github"></i></a> 
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            <a href=""><i class="fa-brands fa-discord"></i></a>
+        </section> 
+    </header>
+    <hr width="60%">
+    <div>    
+        <h2>Add a New Item</h2>
+        <input type="text" name="category" id="" placeholder="category">
+        <input type="date" name="date" id="">
+        <input type="text" name="price" id="" placeholder="R$" pattern="^\$\d{1,3}(,\d{3})*(\.\d+)?$" data-type="currency">
+        <input type="text" name="item" id="" placeholder="item">
+        <input type="button" value="Add" style="background-color: black; color: white;">
+    </div>
+    <hr width="60%">
+    <div>
+        <table border="1">
+            <tr>
+                <th>Item</th>
+                <th>Date</th>
+                <th>Price</th>
+                <th>Category</th>
+            </tr>
+            <tr>
+            </tr>
+        </table>
+    </div>
+    <div id="report_div">
+    </div>
 </body>
 <script src="main.js"></script>
 </html>
