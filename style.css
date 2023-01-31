@@ -5,6 +5,14 @@ body{
     font: normal 15pt Arial
 }
 
+i{
+    font: normal 12pt Arial;
+}
+
+i:hover{
+    cursor: pointer;
+}
+
 h1{
     margin:auto;
     padding:5px;
@@ -25,7 +33,7 @@ section{
 
 
 input{
-    font: normal 12pt Arial;
+    font: normal 15pt Arial;
     border-radius: 15px;
     border: none;
     display: flexbox;
@@ -58,3 +66,5 @@ table{
     padding: 50px;
     border-bottom: 2px solid gray;
 }
+
+
