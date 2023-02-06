@@ -32,12 +32,15 @@ section{
 
 
 
-input{
+select, option, input{
     font: normal 15pt Arial;
     border-radius: 15px;
     border: none;
     display: flexbox;
     justify-content: center;
+}
+select:invalid{
+    color: gray;
 }
 
 i{
